@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mulungi Coffee Nursery Bed</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            background-color: #3d5a3d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #2e3d2e;
+            padding: 10px;
+        }
+
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 15px;
+                font-weight: bold;
+            }
+
+        .hero {
+            background-image: url('images/bed-nursery2.png');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 36px;
+            text-shadow: 2px 2px 4px #000;
+        }
+
+        .section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+            .section h2 {
+                color: #3d5a3d;
+            }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+            .gallery img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 8px;
+            }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        input, textarea, button {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #3d5a3d;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #3d5a3d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mulungi Coffee Nursery Bed</h1>
+        <p>Where every seedling matters</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Seedlings</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        Raising Uganda's Next Great Coffee!
+    </div>
+
+    <div class="section" id="about">
+        <h2>About Us</h2>
+        <p>Mulungi Coffee Nursery Bed, located in Busunju, Mityana District, is dedicated to producing high-quality coffee seedlings. We take pride in our healthy, disease-resistant cuttings and sustainable nursery practices.</p>
+        <p>We provide strong, healthy coffee cuttings — ready to thrive in any coffee-growing region.</p>
+        <p>We provide professionally grown, healthy coffee seedlings — rooted under proper shade and ready for planting.</p>
+        <p>Your order will be delivered to your doorstep, anywhere.</p>
+    </div>
+
+    <div class="section" id="services">
+        <h2>Our Seedlings</h2>
+        <ul>
+            <li>Robust, disease-free coffee seedlings</li>
+            <li>Healthy, strong coffee cuttings</li>
+            <li>Professionally managed coffee seedlings</li>
+            <li>Guaranteed quality for high yields</li>
+            <li>Polythene shade cover for healthy growth</li>
+            <li>Affordable prices</li>
+            <li>Bulk supply available for large farms</li>
+        </ul>
+    </div>
+
+    <div class="section" id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="images/coffee-seedling.png" alt="Seedling 1" width="300">
+            <img src="images/bed-nursery.jpg" alt="Seedling 2">
+            <img src="images/nursery-bed.png" alt="Seedling 3">
+            <img src="images/nursery-bed-seedlings.png" alt="Nursery">
+        </div>
+    </div>
+
+    <div class="section" id="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Location:</strong> Busunju, Mityana District</p>
+        <p><strong>Phone:</strong> 0709711602 / 0776263342</p>
+        <p><strong>Email:</strong> mulungicoffeenurserybed@gmail.com</p>
+
+        <form action="mailto:mulungicoffeenurserybed@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <footer>
+        &copy; 2025 Mulungi Coffee Nursery Bed. All rights reserved.
+    </footer>
+</body>
+</html>
+
+
+
